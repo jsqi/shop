@@ -1,0 +1,7 @@
+*.xml
+*.jar
+shop_parrent/shop_sellergoods_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+*.class
+*.war
+*.MF
+shop_parrent/shop_sellergoods_service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
