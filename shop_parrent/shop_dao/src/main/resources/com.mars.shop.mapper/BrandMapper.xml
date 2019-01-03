@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.mars.shop.mapper" >
+
+    <resultMap id="BaseResultMap" type="User">
+        <id property="id" column="id" jdbcType="INTEGER" />
+        <result property="name" column="name" jdbcType="STRING" />
+        <result property="firstChar" column="first_char" jdbcType="STRING"/>
+    </resultMap>
+    <select id="listAll" resultMap="BaseResultMap">
+     select * from tb_brand
+    </select>
+</mapper>
